@@ -7,11 +7,5 @@ pipeline {
         sh "pwd"
         }
     }
-    stage('Stage Test'){
-      steps {
-        echo "This is Test stage"
-        sh "ls -lrt"
-        }
-    }
-      }
+  }
 }
